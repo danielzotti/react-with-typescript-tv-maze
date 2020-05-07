@@ -1,0 +1,31 @@
+.results {
+
+}
+
+.noImage {
+
+}
+
+.grid {
+  display: flex;
+  overflow-x: auto;
+}
+
+.gridItem {
+  margin: 10px;
+  min-width: 200px;
+  max-width: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.movie {
+  overflow: hidden;
+}
+
+.movieText {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+}
